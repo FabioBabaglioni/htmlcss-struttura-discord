@@ -14,13 +14,31 @@
 }
 
 #barra-navigazione{
-    display: flex;
-
-    /* DEBUG */
-    margin: auto;
     width: 80%;
-    background-color: pink;
-    min-height: 100px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.logo{
+
+    height: 75px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.nav{
+
+    height: 75px;
+    width: 700px;
+    background-color: antiquewhite;
+}
+
+.accedi{
+    height: 75px;
+    width: 100px;
+    background-color: blanchedalmond;
 }
 
 .titolo{
@@ -47,14 +65,88 @@
 
 .sezione-flex{
     display: flex;
-     /* align-items: center; */
+    justify-content: space-between;
+    
 } 
 
-section > div {
-    
-    align-items: center;
-    min-height: 300px;
+.grey{
+    background-color: grey;
+}
+
+.sezione-flex > div {
     width: 40%;
+    
+    /* DEBUG */
+    margin: 40px;
+    min-height: 300px;
     background-color: green;
     border: solid 1px black;
+}
+
+.tecnologia{
+    margin: 20px auto;
+    width: 80%;
+}
+
+#titolo-secondario{
+    /* DEBUG */
+    height: 50px;
+    background-color: aqua;
+}
+
+#paragrafo-secondario{
+    /* DEBUG */
+    margin: 30px auto;
+    height: 70px;
+    background-color: pink;
+
+}
+
+#immagine{
+
+    /* DEBUG */
+    height: 400px;
+    background-color: red;
+}
+
+
+/* footer */
+
+footer{
+    background-color: lightslategray;
+    
+}
+
+.fine{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#big-column{
+    margin: 20px 0;
+
+    /* DEBUG */
+    min-height: 300px;
+    width: 20%;
+    background-color: aqua;
+
+}
+
+.column{
+    margin: 20px 0;
+
+    /* DEBUG */
+    min-height: 300px;
+    width: 15%;
+    background-color: aqua;
+}
+
+.contenitore{
+    width: 80%;
+    margin: auto;
+}
+
+hr{
+    margin-bottom: 20px;
 }
