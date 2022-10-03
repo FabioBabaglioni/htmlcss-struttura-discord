@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* body{
+    width: 70%;
+    text-align: center;
+} */
+
+
+/* intestazione pagina */
+#intestazione-flex{
+    display: flex;
+    /* DEBUG */
+    min-height: 500px;
+    background-color: blue;
+}
+
+#barra-navigazione{
+
+    width: 70%;
+    background-color: pink;
+    min-height: 100px;
+    align-items: flex-start;
+}
